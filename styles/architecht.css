@@ -64,3 +64,29 @@ nav li a {
   font-size: 1rem;
   font-weight: 400;
 }
+
+.banner img {
+  width: 100%;
+}
+
+/*  responsive styles */
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+/*  tablet of medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav {
+    flex-direction: column;
+  }
+  header {
+    padding: 30px;
+  }
+}
